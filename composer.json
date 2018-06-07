@@ -1,0 +1,16 @@
+{
+    "name": "infinityart/simplenairy",
+    "description": "A simple package for making a dictionary and using a translator.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonty Sponselee",
+            "email": "jonty_wolf@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Infsim\\": "app/"}
+    }
+}
