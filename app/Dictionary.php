@@ -11,7 +11,6 @@
 
 namespace Infsim;
 
-
 class Dictionary
 {
     /**
@@ -35,6 +34,8 @@ class Dictionary
     }
 
     /**
+     * Return current dictionary 
+     * 
      * @return array
      */
     public function getDictionary():array
