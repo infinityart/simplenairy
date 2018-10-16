@@ -11,7 +11,6 @@
 
 namespace Infsim;
 
-
 class Translator
 {
     /**
@@ -26,6 +25,7 @@ class Translator
 
     /**
      * Translator constructor.
+     * 
      * @param Dictionary $dictionary
      * @param string $language
      */
@@ -92,6 +92,8 @@ class Translator
     }
 
     /**
+     * Set language to given string 
+     * 
      * @param string $language
      */
     public function setLanguage(string $language)
